@@ -1,0 +1,29 @@
+.Item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    width: 250px;
+    height: 25px;
+    border: 1px solid #ede7f6;
+    border-radius: 12px;
+    padding: 10px;
+    background:rgb(225, 255, 127);
+    overflow: hidden;
+}
+
+.Item p{
+    margin: 0;
+    font-size: 18px;
+    color: green;
+}
+
+.Item button{
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: none;
+    background-color: rgb(255, 98, 59);
+    font-size: 20px;
+    color: rgb(225, 255, 127);
+}
